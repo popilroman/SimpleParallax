@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             this.querySelectorAll(".layer").forEach(layer => {
                 let speedLayer = layer.getAttribute('data-speed');
 
-                layer.style.transform = `translateX(${event.clientX * speedLayer / 2000}px) translateY(${event.clientY * speedLayer / 2000}px)`;
+                layer.style.transform = `translateX(${event.clientX * speedLayer / 2000}px) translateY(${event.clientY * speedLayer / 3000}px)`;
             });
 
         };
